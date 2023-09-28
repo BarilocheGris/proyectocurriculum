@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi primer cv</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="fontawesome/fontawesome-free-6.4.2-web/css/all.css">
+    <style>
+    .grid-container {
+        display: flexbox;
+        grid-template-rows: 100px 100px 100px 100px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 3px; 
+        grid-template-areas:
+        "area0 area0 area0 area0"
+        "area1 area2 area3 area4"
+    }
+     .grid-principal {
+        display: flex;
+        background: pink; 
+        border: black 3px solid;
+        grid-area: area0;
+     }
+     .grid-a {
+        display: flex;
+        background: lightskyblue;
+        text-align: left;
+        border: black 3px solid;
+        grid-area: area1;
+         
+         }  
+     .grid-b {
+        display: flex;
+      background: pink;
+      text-align: left;
+      border: black 3px solid ;
+      grid-area: area2;
+      }
+      .grid-c {
+        background: lightskyblue;
+        text-align: left;
+        border: black 3px solid;
+        grid-area: area3 ;
+      }
+     .box {
+       background: pink;
+       text-align: center;
+       border: black 3px solid;
+     }
+     .grid-d {
+        background: lightskyblue;
+        text-align: center;
+        border: black 3px solid;
+        grid-area: area4;
+
+     }
+     .box1 {
+        background: pink;
+        text-align: center;
+        border: black 3px solid;
+        font-style: italic; 
+     }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+    <div class="header">
+
+    <div class="grid-principal"> 
+        <div class="container">
+            <div class="circulo"></div>
+        </div class="titulo1">
+        <div position="center"><h1>Curriculum Vitae<i class="fa-regular fa-user"></i> GRISELDA GARCIA</h1></div>
+    </div>
+</div>
+
+    <div class="grid-a">
+     <table>
+        <ul>
+            <li>Objetivos:</li>
+            <li>Aprender sobre lenguajes de programacion</li>
+            <li> Desempeñarme correctamente en el puesto laboral </li>
+            <li> Obtener los conocimientos que me falten aprender</li>
+            <li> Poder trabajar del ambito tecnologico, que es lo que me gusta</li>
+        </ul>
+     </table>
+     
+    </div>
+    <div class="grid-b">
+        <div>
+            <table>
+            <ul>
+              <li> Experiencia Digital:</li>
+              <li> Introduccion a la programacion. Año 2020</li>
+              <li> Curso de Asistente de diseñador grafico 2022</li>
+              <li> Argentina programa 4.0-primer nivel 2022</li>
+              <li> Curso: Primeros pasos en front End (tramo 1) Ticmas 2023</li>
+            </ul>
+         </table>
+     </div> 
+    </div>
+    <div class="grid-c"> EXPERIENCIA LABORAL </div>
+    <div class="box">
+         <table>
+            <p> Diseños de folletos, logos,etiquetas para productos</p> <br>
+            <p> Edicion en programas Adobe Ilustrator, Indesign y Photoshop</p> <br>
+            <p> Desarrollo de pedidos de particulares de trabajos de edicion</p> <br>
+         </table>
+        </div>
+
+    <div class="grid-d"> CONTACTO </div>
+        <div class="box1">
+      <table> 
+      <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192338.44101967182!2d-71.50472287070279!3d-41.12823541482967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b1520c860e5%3A0x8210ae97cb7b9a65!2sSan%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1695874123586!5m2!1ses-419!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      <p><a href="https://www.instagram.com/dragonfromtheheaven90/"> <i class="fa-brands fa-instagram"></i>dragonfromtheheaven90</a></p><br>
+      <p><a href="https://www.facebook.com/profile.php?id=100011078373442"><i class="fa-brands fa-facebook"></i>Lili Garcia </p></a> <br>
+      <p><i class="fa-brands fa-whatsapp"></i> +54 294 4151589</p> <br>
+      <p> <i class="fa-solid fa-envelope"></i>lilimonbariloche@gmail.com</p>  <br>
+      <p><a href="https://github.com/BarilocheGris"> <i class="fa-brands fa-github"></i>BarilocheGris</p> </a><br>
+    </table>
+    </div>
+</div>
+</body>
+</html>
